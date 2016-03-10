@@ -21,7 +21,7 @@ for l in input:
         output.write(l+'\n')
         continue
     fields = l.split('\t')
-    if fields[0] == 'chr'+str(chr):
+    if fields[0] == 'chr'+str(chr): # depend on what you have in your vcf file, if there is no 'chr', then delete the 'chr'
         if int(fields[1]) >= start:
             if int(fields[1]) <= end:
                 output.write(l+'\n')
