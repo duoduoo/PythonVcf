@@ -157,6 +157,6 @@ for snp in snpSet1:
     output.write('\n')
 
 
-print "Erica is a genius!"    
+print "Job finished!"    
 
 output.close()
