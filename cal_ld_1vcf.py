@@ -21,7 +21,7 @@ import re
 import string
 
 if len(sys.argv) != 6:
-    print "Usage: python cal_ld_1vcf.py [SNP_vcf] [SNP1_position] [SNP2_position] [output] [error]"    #launch the program the the sequence file
+    print "Usage: python cal_ld_1vcf.py [SNP_vcf] [SNP1_ids] [SNP2_ids] [output] [error]"    #launch the program the the sequence file
     sys.exit (1)
     
 vcf = open(sys.argv[1], 'r')
